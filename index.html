@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículo - Luiz Gabriel Ramires Cáceres</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+    /* Reset básico */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #f0f4ff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 30px 40px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 3px solid #1e90ff;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    header img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #1e90ff;
+      background: #ddd;
+      flex-shrink: 0;
+    }
+
+    header div {
+      flex-grow: 1;
+    }
+
+    header h1 {
+      margin: 0 0 6px 0;
+      font-weight: 700;
+      color: #1e90ff;
+      font-size: 2.4rem;
+    }
+
+    header p {
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #1e90ff;
+      font-weight: 700;
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 svg {
+      width: 24px;
+      height: 24px;
+      fill: #1e90ff;
+      flex-shrink: 0;
+    }
+
+    p, li {
+      font-size: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 8px;
+    }
+
+    ul li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: #1e90ff;
+      font-weight: bold;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      word-break: break-word;
+    }
+
+    a:hover {
+      color: #104e8b;
+      text-decoration: underline;
+    }
+
+    .contact-info p {
+      margin: 6px 0;
+      font-weight: 600;
+    }
+
+    .buttons {
+      margin-top: 15px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1e90ff;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      box-shadow: 0 5px 15px rgba(30,144,255,0.4);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      background-color: #104e8b;
+      box-shadow: 0 8px 20px rgba(16,78,139,0.6);
+    }
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .container {
+        margin: 20px 15px;
+        padding: 25px 20px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      header img {
+        width: 100px;
+        height: 100px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .buttons {
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 400px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="img1.jpg" alt="Avatar Luiz Gabriel" />
+      <div>
+        <h1>Luiz Gabriel Ramires Cáceres</h1>
+        <p>Social Media com foco em vídeo</p>
+        <div class="contact-info">
+          <p>📞 (67) 99925-2257</p>
+          <p>✉️ <a href="mailto:luizgabrielramirescaceres150@gmail.com">luizgabrielramirescaceres150@gmail.com</a></p>
+          <p>📍 Bela Vista - MS</p>
+        </div>
+        <div class="buttons">
+          <a href="https://bio.site/Webpageart" target="_blank" class="btn">Portfólio Online</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1010 10A10.011 10.011 0 0012 2zm.5 15H11v-2h1.5v2zm0-4H11V7h1.5v6z"/></svg>
+        Objetivo
+      </h2>
+      <p>Atuar como Social Media com foco em vídeo, utilizando minhas habilidades em edição, criação de conteúdo e análise digital para fortalecer a presença online da marca e gerar resultados reais.</p>
+    </section>
+
+    <section>
+      <h2>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm0 16H5V5h14zM9 9h6v2H9zm0 4h6v2H9z"/></svg>
+        Resumo Profissional
+      </h2>
+      <ul>
+        <li>Algumas Experiências com criação de conteúdo audiovisual e gestão de redes sociais (Instagram, TikTok, Reels, YouTube Shorts).</li>
+        <li>Domínio de ferramentas de edição e design como CapCut, Canva, InShot. entre outros</li>
+        <li>Facilidade com tecnologia, automações, análise de métricas e tendências digitais.</li>
+        <li>Formação na área de TI, com pensamento lógico e visão estratégica.</li>
+        <li>Criativo, proativo e focado em resultado.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L2 7v6c0 5.25 4.13 9.48 9 10 4.87-.52 9-4.75 9-10V7zm0 14a4 4 0 114-4 4.005 4.005 0 01-4 4z"/></svg>
+        Formação Acadêmica
+      </h2>
+      <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+      <p><strong>Instituição:</strong> UNIGRAN - Centro Universitário da Grande Dourados</p>
+      <p><strong>Período:</strong> Janeiro de 2019 – Dezembro de 2023</p>
+    </section>
+
+    <section>
+      <h2>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 21h6v-2H9zm-4-4h14v-2H5zm0-4h14v-2H5zm0-4h14V7H5z"/></svg>
+        Experiência Relevante
+      </h2>
+      <p><strong>Criador de Conteúdo Independente (202X - atual)</strong></p>
+      <ul>
+        <li>Produção de vídeos curtos para Instagram e TikTok com foco em engajamento.</li>
+        <li>Planejamento de postagens e roteiros criativos.</li>
+        <li>Acompanhamento de métricas e ajustes de estratégia.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1010 10A10.011 10.011 0 0012 2zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8z"/></svg>
+        Habilidades Técnicas
+      </h2>
+      <ul>
+        <li>Edição de vídeo: CapCut, InShot</li>
+        <li>Design gráfico: Canva, Photoshop (básico)</li>
+        <li>Redes sociais: Instagram, TikTok, YouTube, Facebook</li>
+        <li>TI: GitHub, noções de HTML/CSS, lógica de programação</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
